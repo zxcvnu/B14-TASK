@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gold;
+}
+.container{
+    
+    padding-top: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.h1{
+    display: grid;
+    justify-content: center;
+   
+    padding-bottom: 2.5rem;
+}
+h1 {
+    display: inline-block;
+    border: 2px solid;
+    padding: 0.25rem;
+    background-color: whitesmoke;
+}
+.containerz{
+   
+    padding: 0.5rem;
+}
+
+p{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+.const {
+    display: grid;
+    grid-template-areas:
+      'header1 header2 header3'
+      'footer1 footer2 footer3';
+    
+  }
+
+  .containers {
+    border: 2px solid;
+    padding: 0.5rem;
+    background-color: whitesmoke;
+    
+}
+
+  .container1 { 
+    grid-area: header1; 
+ }
+
+  .container2 { 
+    grid-area: header2; 
+ }
+
+  .container3 { 
+    grid-area: header3; 
+ }
+
+  .container4 { 
+    grid-area: footer1; 
+ }
+
+  .container5 { 
+    grid-area: footer2; 
+ }
+  .container6 { 
+    grid-area: footer3; 
+ }
+
+
+  @media screen and (min-width: 280px){
+    .cons {
+        display: grid;
+        grid-template-areas:
+          'header1'
+          'header2'
+          'header3'
+          'footer1'
+          'footer2'
+          'footer3';
+      }
+  }
+
+  @media screen and (min-width: 576px){
+    .cons {
+        display: grid;
+        grid-template-areas:
+          'header1'
+          'header2'
+          'header3'
+          'footer1'
+          'footer2'
+          'footer3';
+      
+      }
+      
+  }
+  
+  @media screen and (min-width: 768px){
+    .cons {
+        display: grid;
+        grid-template-areas:
+          'header1'
+          'header2'
+          'header3'
+          'footer1'
+          'footer2'
+          'footer3';
+      }
+  }
+  
+  @media screen and (min-width: 992px){
+    .cons {
+        display: grid;
+        grid-template-areas:
+          'header1'
+          'header2'
+          'header3'
+          'footer1'
+          'footer2'
+          'footer3';
+      }
+  }
+
+  @media screen and (min-width: 1200px){
+    .cons {
+        display: grid;
+        grid-template-areas:
+          'header1 header2 header3'
+          'footer1 footer2 footer3';
+        /* gap: 10px; */
+       /*  padding: 10px; */
+      }
+  }
+  @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4){
+    .cons {
+        display: grid;
+        grid-template-areas:
+          'header1'
+          'header2'
+          'header3'
+          'footer1'
+          'footer2'
+          'footer3';
+      }
+  }
+a{
+    color: rgb(64, 110, 209);
+}
+a:hover, a:focus {
+    background-color: aqua;
+}
+a:active{
+    color: red;
+}
